@@ -1,0 +1,25 @@
+theme: jekyll-theme-minimal
+title: Ancient Greek NMT
+description: Neural Machine Translation for Ancient Greek texts
+show_downloads: true
+google_analytics:
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-seo-tag
+
+relative_links:
+  enabled: true
+  collections: true
+
+include:
+  - ancient-greek-nmt_wiki.md
+  - installation.md
+  - quickstart.md
+  - api_reference.md
+  - training_guide.md
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
